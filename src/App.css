@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-pagination .page-link {
+  background-color: white;
+  color: aqua;
+  border: 1px solid aqua;
+}
+
+.custom-pagination .page-item.active .page-link {
+  background-color: aqua;
+  color: white;
+  border-color: aqua;
+}
+
+.custom-pagination .page-item.disabled .page-link {
+  background-color: #f0f0f0;
+  color: #a0a0a0;
+  border-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.custom-pagination .page-item .page-link {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.custom-pagination .page-item .page-link:hover {
+  background-color: lightcyan;
+  color: darkcyan;
+  border-color: lightcyan;
+}
